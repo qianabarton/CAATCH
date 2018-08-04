@@ -1,7 +1,7 @@
 {
-    "name": "five-star-rentals",
+    "name": "CAATCH",
     "version": "1.0.0",
-    "description": "five-star-rentals",
+    "description": "CAATCH",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
