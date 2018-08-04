@@ -1,0 +1,272 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #000;
+}
+
+
+/* ---> Fonts & Font Sizing <---------------------- */
+
+h1 {
+    font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+    color: #D0C7B6;
+    font-size: 110px;
+    line-height: 40px;
+    position: relative;
+    z-index: 50;
+}
+
+h2 {
+    font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+    color: #fff;
+    font-size: 200px;
+    line-height: 190px;
+}
+
+h3 {
+    font-family: 'SuisseBpIntlRegular', Helvetica, sans-serif;
+    color: #A3A3A3;
+    font-size: 27px;
+    line-height: 40px;
+}
+
+h3 .sub-heading {
+    font-family: 'SuisseBpIntlThin', Helvetica, sans-serif;
+    font-size: 46px;
+}
+
+h4 {}
+
+h5 {}
+
+p {
+    font-size: 18px;
+    color: #808080;
+}
+
+
+/* ---> Container Spacing <------------------------ */
+
+.container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* ---> Image Sizing <------------------------- */
+
+.service-img {
+    height: 125px;
+}
+
+.companies-img {
+    height: 155px;
+    opacity: 0.85;
+}
+
+
+/* ---> Links <------------------------- */
+
+
+/* ---> Navbar <------------------------------ */
+
+.navbar-brand img {
+    width: 90px;
+}
+
+.navbar {
+    background-color: transparent;
+    transition: background 1s;
+}
+
+.solid {
+    background: #000;
+    opacity: 0.85;
+}
+
+.nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 10px 0 10px;
+}
+
+
+/* ---> Buttons <--------------------------- */
+
+.btn {
+    text-transform: uppercase;
+    border-radius: 0;
+    width: 200px;
+}
+
+.btn-fill {
+    background-color: #8AB2FF;
+    color: #fff;
+}
+
+.btn-fill-yellow {
+    background-color: #fec301;
+    color: #fff;
+}
+
+.btn-ghost {
+    border-color: #e4af01;
+    color: #e4af01;
+    background-color: transparent;
+}
+
+.btn-white {
+    border-color: #fff;
+    color: #fff;
+}
+
+
+/* ---> Header <------------------------------- */
+
+#header-hero {
+    opacity: 0;
+    background-color: #FFF5E8;
+    width: 100%;
+}
+
+.hero-text {
+    position: fixed;
+    top: 60%;
+    margin-top: -213.5px;
+    left: 50%;
+    margin-left: -222px;
+}
+
+.hero-img {
+    opacity: .4;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 0;
+    margin-top: -175px;
+}
+
+
+/* ---> How it works <------------------------------- */
+
+#how-it-works {
+    position: relative;
+    background-color: #808080;
+}
+
+.how-it-works h2 {
+    color: #e6e6e6;
+}
+
+.how-it-works h1 {
+    color: #e6ac00;
+    font-size: 42px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.how-it-works span {
+    font-size: 32px;
+}
+
+.how-it-works p {
+    border-left: thick solid #fed136;
+    padding: 20px 20px;
+    margin-left: 10px;
+    color: #d9d9d9;
+}
+
+.how-it-works a {
+    color: #fed136;
+}
+
+
+/* ---> Mission <------------------------------- */
+
+#mission {
+    background-color: #fff;
+    position: relative;
+}
+
+
+/* ---> Services <------------------------------- */
+
+#services {
+    background-color: #fff;
+    position: relative;
+}
+
+.services h4 {
+    color: #003399;
+}
+
+
+/* ---> Contact <------------------------------- */
+
+#contact {
+    position: relative;
+    background-color: #666666;
+}
+
+.contact h2 {
+    color: #e6e6e6;
+}
+
+.contact p {
+    color: #cccccc;
+}
+
+
+/* ---> Footer <------------------------------- */
+
+#footer {
+    background-color: #000;
+    position: relative;
+    z-index: 5;
+}
+
+.footer span {
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+
+.social-media {
+    width: 55px;
+}
+
+.footer img {
+    max-width: 15%;
+}
+
+
+/* ---> Apply <------------------------------- */
+
+#apply {
+    background-color: #fff;
+    position: relative;
+}
+
+.apply h1 {
+    color: #000;
+    font-size: 56px;
+}
+
+.apply label {
+    color: #666666;
+}
+
+#form {
+    background-color: #eee;
+    position: relative;
+}
+
+.apply-text h2 {
+    color: #4d4d4d;
+}
+
+.apply-text p {
+    color: #666666;
+}

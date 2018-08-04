@@ -1,0 +1,26 @@
+    /* ---> Mobile CSS <----------------------------------------------------------- */
+    
+    @media(max-width:767px) {
+        /* ---> Font Size <----------------------------- */
+        h1 {}
+        /* ---> Container & Image Sizing <---------------- */
+        /* ---> Navbar <---------------------------------- */
+        /* ---> Other <-------------------------- */
+        /* ---> Header <------------------------------- */
+        .hero-text {}
+        /* Modal Content/Box */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 0 auto;
+            /* 15% from the top and centered */
+            padding: 10px;
+            border: 1px solid #888;
+            width: 95%;
+        }
+        .nav-link {
+            font-size: 32px !important;
+        }
+        .footer img {
+            max-width: 30%;
+        }
+    }

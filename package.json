@@ -1,0 +1,32 @@
+{
+    "name": "five-star-rentals",
+    "version": "1.0.0",
+    "description": "five-star-rentals",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npm run build-css && npm run open",
+        "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/\"",
+        "build-css": "node-sass --include-path scss css/form.scss css/output.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/qianabarton/FIVE-STAR-Rentals.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/qianabarton/FIVE-STAR-Rentals/issues"
+    },
+    "homepage": "https://github.com/qianabarton/FIVE-STAR-Rentals#readme",
+    "devDependencies": {
+        "concurrently": "^3.6.0",
+        "http-server": "^0.11.1",
+        "node-sass": "^4.9.0",
+        "nodemon": "^1.17.5",
+        "sass": "^1.6.2"
+    },
+    "dependencies": {
+        "compass": "^0.1.1"
+    }
+}
