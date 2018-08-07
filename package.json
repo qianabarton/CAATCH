@@ -1,32 +1,35 @@
 {
-    "name": "CAATCH",
+    "name": "caatch",
     "version": "1.0.0",
     "description": "CAATCH",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "echo \"Error: no test specified\"",
         "start": "npm run build-css && npm run open",
         "open": "concurrently \"http-server -a localhost -p 1234\" \"open http://localhost:1234/\"",
         "build-css": "node-sass --include-path scss css/form.scss css/output.css"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/qianabarton/FIVE-STAR-Rentals.git"
+        "url": "git+https://github.com/qianabarton/CAATCH.git"
     },
-    "author": "",
+    "author": "Qiana Barton",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/qianabarton/FIVE-STAR-Rentals/issues"
+        "url": "https://github.com/qianabarton/CAATCH/issues"
     },
-    "homepage": "https://github.com/qianabarton/FIVE-STAR-Rentals#readme",
+    "homepage": "https://github.com/qianabarton/CAATCH",
     "devDependencies": {
-        "concurrently": "^3.6.0",
+        "concurrently": "^3.6.1",
         "http-server": "^0.11.1",
-        "node-sass": "^4.9.0",
-        "nodemon": "^1.17.5",
-        "sass": "^1.6.2"
+        "node-sass": "^4.9.2",
+        "nodemon": "^1.18.3",
+        "sass": "^1.10.3",
+        "watch": "^1.0.2"
     },
     "dependencies": {
-        "compass": "^0.1.1"
+        "compass": "^0.1.1",
+        "express": "^4.16.3",
+        "npm-watch": "^0.3.0"
     }
 }
