@@ -22,7 +22,7 @@ h2 {
     color: #fff;
     font-size: 200px;
     line-height: 190px;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 h3 {
@@ -40,6 +40,7 @@ h3 .sub-heading {
 h4 {
     font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
     font-size: 40px;
+    color: #fff;
 }
 
 h5 {}
@@ -91,7 +92,7 @@ p {
 }
 
 .btn-fill {
-    background-color: #5E70AD;
+    background-color: #357496;
     color: #fff;
 }
 
@@ -111,59 +112,78 @@ p {
 
 #header-hero {
     opacity: 1;
-    background-color: #FFBB7B;
+    position: fixed;
     width: 100%;
+    height: 100%;
+    background: url('../img/bg.jpg') center bottom;
+    background-size: cover;
+    left: 0;
+    top: 0;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.rocks {
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
-    top: 0;
+    top: 100%;
+    opacity: 0;
+}
+
+.rocks img {
+    position: relative;
+    width: 100%;
+    z-index: 50;
 }
 
 .hero-text {
     opacity: 0;
     position: fixed;
     top: 60%;
-    margin-top: -213.5px;
+    margin-top: -380px;
     left: 50%;
-    margin-left: -222px;
+    margin-left: -300px;
 }
 
 .hero-img {
-    opacity: .4;
-    width: 350px;
-    position: absolute;
-    left: 50%;
-    margin-left: -175px;
-    top: 0;
-    margin-top: -175px;
+    width: 550px;
 }
 
 
 /* ---> Services <------------------------------- */
 
-#services {
-    background-color: #5E70AD;
+#caatch-this {
+    background-color: #1f140f;
     position: relative;
-}
-
-.services h4 {
-    color: #fff;
+    z-index: 0;
+    padding-top: 200px;
 }
 
 
 /* ---> How it works <------------------------------- */
 
-#how-it-works {
+#caatch-up {
     position: relative;
-    background-color: #fff;
+    background-color: #212529;
 }
 
 
 /* ---> Mission <------------------------------- */
 
-#mission {
-    background-color: #4E919D;
+#caatch-us {
+    background-color: #2E2417;
+    position: relative;
+}
+
+#lets-caatch-up {
+    background-color: #2e1d17;
     position: relative;
 }
 
@@ -171,7 +191,7 @@ p {
 /* ---> Intro <------------------------------- */
 
 .intro {
-    background: #FFBB7B;
+    background: #401c28;
     position: relative;
     height: 100%;
 }
@@ -189,11 +209,11 @@ p {
 }
 
 .intro-sub {
-    color: #a78f72;
+    color: #c4aa8a;
 }
 
 .first-circle {
-    background: #405495;
+    background: #a78f72;
     width: 100%;
     position: absolute;
     width: 100%;

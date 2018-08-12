@@ -19,6 +19,8 @@ qb.App = (function() {
         $(window).resize();
     }
 
+
+
     function setup() {
         $(window).resize(function() {
             $('.full-height').height($(window).height());
@@ -63,6 +65,7 @@ qb.App = (function() {
     function heroCircle() {
         $('#header-hero').addClass('bg-animation');
         $('#header-hero').removeClass('d-none');
+        $('.rocks').removeClass('d-none');
         hero();
         $('.intro').animate({
                 opacity: 1
@@ -75,6 +78,9 @@ qb.App = (function() {
                     opacity: 1
                 }, 3700)
 
+                $('.rocks').animate({
+                    opacity: 1
+                }, 1700)
             })
         )
     }
@@ -82,24 +88,42 @@ qb.App = (function() {
     function hero() {
         console.log("load hero");
 
+        calcImgSize();
+
         $(window).scroll(function() {
             var scrolledY = $(window).scrollTop();
-            $('#header-hero').css('background-position', 'left ' + ((scrolledY)) + 'px');
+            //$('#header-hero').css('background-position', 'left ' + ((scrolledY)) + 'px'); for
+            $('.hero-text').css('transform', 'translate3d(0px, ' + -(scrolledY * 0.9) + 'px , 0px)');
+            $('.hero-img').css('width', 550 + scrolledY * 0.05 + 'px');
+
+            var width = $('.hero-image').width();
+            var height = $('.hero-image').height();
+            $('.hero-text').css('margin-left', -width / 2 + 'px');
+            $('.hero-text').css('margin-top', -height / 2 + 'px');
         });
     }
 
+    function calcImgSize() {
+        var height = $('.rocks img').height();
+        $('.rocks').css('margin-top', -height / 2 + 5 + 'px');
+
+
+
+    }
 
     function hideAllSections() {
         $('#header-hero').addClass('d-none');
-        $('#services').addClass('d-none');
-        $('#how-it-works').addClass('d-none');
-        $('#mission').addClass('d-none');
+        $('#caatch-this').addClass('d-none');
+        $('#caatch-up').addClass('d-none');
+        $('#caatch-us').addClass('d-none');
+        $('#lets-caatch-up').addClass('d-none');
     }
 
     function showAllSections() {
-        $('#services').removeClass('d-none');
-        $('#how-it-works').removeClass('d-none');
-        $('#mission').removeClass('d-none');
+        $('#caatch-this').removeClass('d-none');
+        $('#caatch-up').removeClass('d-none');
+        $('#caatch-us').removeClass('d-none');
+        $('#lets-caatch-up').removeClass('d-none');
     }
 
 
