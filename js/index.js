@@ -65,7 +65,7 @@ qb.App = (function() {
     function heroCircle() {
         $('#header-hero').addClass('bg-animation');
         $('#header-hero').removeClass('d-none');
-        $('.rocks').removeClass('d-none');
+        // $('.rocks').removeClass('d-none');
         hero();
         $('.intro').animate({
                 opacity: 1

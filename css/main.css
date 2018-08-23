@@ -10,18 +10,23 @@ body {
 
 h1 {
     font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
-    color: #a78f72;
+    color: #FFE189;
     font-size: 110px;
-    line-height: 40px;
+    line-height: 100px;
     position: relative;
     z-index: 50;
+}
+
+.h1-sub {
+    color: #fff;
+    font-size: 132px;
 }
 
 h2 {
     font-family: 'SuisseBpIntlMedium', Helvetica, sans-serif;
     color: #fff;
-    font-size: 200px;
-    line-height: 190px;
+    font-size: 132px;
+    line-height: 116px;
     opacity: 0.8;
 }
 
@@ -39,7 +44,7 @@ h3 .sub-heading {
 
 h4 {
     font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 34px;
     color: #fff;
 }
 
@@ -92,7 +97,7 @@ p {
 }
 
 .btn-fill {
-    background-color: #357496;
+    background-color: #E3C059;
     color: #fff;
 }
 
@@ -115,7 +120,7 @@ p {
     position: fixed;
     width: 100%;
     height: 100%;
-    background: url('../img/bg.jpg') center bottom;
+    background: url('../img/bgs/hero.png') center center;
     background-size: cover;
     left: 0;
     top: 0;
@@ -125,7 +130,7 @@ p {
     width: 100%;
     height: 100%;
     background-color: #000;
-    opacity: 0.5;
+    opacity: 0;
 }
 
 .rocks {
@@ -146,9 +151,9 @@ p {
 .hero-text {
     opacity: 0;
     position: fixed;
-    top: 60%;
+    top: 80%;
     margin-top: -380px;
-    left: 50%;
+    left: 30%;
     margin-left: -300px;
 }
 
@@ -156,14 +161,23 @@ p {
     width: 550px;
 }
 
+.yellow {
+    color: #FFE189;
+}
+
 
 /* ---> Services <------------------------------- */
 
 #caatch-this {
-    background-color: #1f140f;
+    background-color: #323232;
     position: relative;
     z-index: 0;
     padding-top: 200px;
+}
+
+.caatch-this-bg {
+    background: url('../img/bgs/caatchthis.png') center center;
+    background-size: cover;
 }
 
 
