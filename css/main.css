@@ -2,7 +2,8 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #FFF5E8;
+    background-color: #eee;
+    font-family: 'SuisseBpIntlLight', Helvetica, sans-serif;
 }
 
 
@@ -12,28 +13,23 @@ h1 {
     font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
     color: #FFE189;
     font-size: 110px;
-    line-height: 100px;
+    line-height: 40px;
     position: relative;
     z-index: 50;
 }
 
-.h1-sub {
-    color: #fff;
-    font-size: 132px;
-}
-
 h2 {
-    font-family: 'SuisseBpIntlMedium', Helvetica, sans-serif;
+    font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
     color: #fff;
-    font-size: 132px;
-    line-height: 116px;
+    font-size: 196px;
+    line-height: 176px;
     opacity: 0.8;
 }
 
 h3 {
-    font-family: 'SuisseBpIntlRegular', Helvetica, sans-serif;
+    font-family: 'SuisseBpIntlThin', Helvetica, sans-serif;
     color: #fff;
-    font-size: 27px;
+    font-size: 35px;
     line-height: 40px;
 }
 
@@ -42,17 +38,34 @@ h3 .sub-heading {
     font-size: 46px;
 }
 
+h3 span {
+    font-size: 46px;
+}
+
 h4 {
     font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
-    font-size: 34px;
+    font-size: 114px;
+    color: #FFE189;
+    opacity: 0.8;
+    line-height: 90px;
+}
+
+h5 {
+    font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+    font-size: 38px;
+    color: #FFE189;
+}
+
+h6 {
+    font-family: 'SuisseBpIntlLight', Helvetica, sans-serif;
+    font-size: 32px;
     color: #fff;
 }
 
-h5 {}
-
 p {
-    font-size: 18px;
-    color: #eee;
+    font-size: 32px;
+    line-height: 36px;
+    color: #fff;
 }
 
 
@@ -61,6 +74,15 @@ p {
 .container {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.container-med {
+    padding-bottom: 60px;
+}
+
+.container-small {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 
@@ -92,8 +114,9 @@ p {
 
 .btn {
     text-transform: uppercase;
-    border-radius: 0;
+    border-radius: 25;
     width: 200px;
+    margin: auto auto;
 }
 
 .btn-fill {
@@ -166,46 +189,79 @@ p {
 }
 
 
-/* ---> Services <------------------------------- */
+/* ---> caatch this <------------------------------- */
 
 #caatch-this {
     background-color: #323232;
     position: relative;
     z-index: 0;
-    padding-top: 200px;
 }
 
 .caatch-this-bg {
-    background: url('../img/bgs/caatchthis.png') center center;
+    width: 100%;
+    height: 750px;
+    background: url('../img/bgs/caatchthis.png');
     background-size: cover;
 }
 
 
-/* ---> How it works <------------------------------- */
+/* ---> caatch up<------------------------------- */
 
-#caatch-up {
+#caatch-us {
     position: relative;
-    background-color: #212529;
+    background: url('../img/bgs/caatchus.png') no-repeat fixed right bottom;
+    background-color: #000;
 }
 
 
-/* ---> Mission <------------------------------- */
+/* ---> caatch us <------------------------------- */
 
-#caatch-us {
-    background-color: #2E2417;
+#who-are-we-1 {
+    background-color: #191911;
     position: relative;
+    background: url('../img/bgs/whoarewe.png');
+    background-size: cover;
+    height: 600px;
+}
+
+#who-are-we-2 {
+    position: relative;
+    background-color: #191911;
+}
+
+#newsletter {
+    position: relative;
+    background-color: #FFE189;
 }
 
 #lets-caatch-up {
-    background-color: #2e1d17;
+    background-color: #323232;
     position: relative;
+}
+
+.final-heading {
+    font-family: 'SuisseBpIntlMedium', Helvetica, sans-serif;
+}
+
+.final-heading,
+.details-2 {
+    color: #fff;
+    opacity: 0.6;
+}
+
+.event-details {
+    padding-top: 200px;
+}
+
+.details-1 {
+    color: #fff;
 }
 
 
 /* ---> Intro <------------------------------- */
 
 .intro {
-    background: #401c28;
+    background: #212529;
     position: relative;
     height: 100%;
 }
@@ -223,11 +279,11 @@ p {
 }
 
 .intro-sub {
-    color: #c4aa8a;
+    color: #FFE189;
 }
 
 .first-circle {
-    background: #a78f72;
+    background: rgb(209, 182, 101);
     width: 100%;
     position: absolute;
     width: 100%;

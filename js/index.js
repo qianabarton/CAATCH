@@ -114,15 +114,19 @@ qb.App = (function() {
     function hideAllSections() {
         $('#header-hero').addClass('d-none');
         $('#caatch-this').addClass('d-none');
-        $('#caatch-up').addClass('d-none');
         $('#caatch-us').addClass('d-none');
+        $('#who-are-we-1').addClass('d-none');
+        $('#who-are-we-2').addClass('d-none');
+        $('#newsletter').addClass('d-none');
         $('#lets-caatch-up').addClass('d-none');
     }
 
     function showAllSections() {
         $('#caatch-this').removeClass('d-none');
-        $('#caatch-up').removeClass('d-none');
         $('#caatch-us').removeClass('d-none');
+        $('#who-are-we-1').removeClass('d-none');
+        $('#who-are-we-2').removeClass('d-none');
+        $('#newsletter').removeClass('d-none');
         $('#lets-caatch-up').removeClass('d-none');
     }
 
