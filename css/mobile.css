@@ -1,26 +1,101 @@
     /* ---> Mobile CSS <----------------------------------------------------------- */
     
     @media(max-width:767px) {
-        /* ---> Font Size <----------------------------- */
-        h1 {}
-        /* ---> Container & Image Sizing <---------------- */
-        /* ---> Navbar <---------------------------------- */
-        /* ---> Other <-------------------------- */
+        /* ---> Fonts & Font Sizing <---------------------- */
+        h1 {
+            font-size: 70px;
+            line-height: 30px;
+        }
+        h2 {
+            font-size: 126px;
+            line-height: 96px;
+        }
+        h3 {
+            font-size: 26px;
+            line-height: 28px;
+        }
+        h3 .sub-heading {
+            font-size: 26px;
+        }
+        h4 {
+            font-size: 64px;
+            line-height: 50px;
+            text-align: center;
+        }
+        h5 {
+            font-size: 22px;
+            text-align: center;
+        }
+        h6 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 22px;
+            text-align: center;
+        }
+        .details-1,
+        .details-2,
+        .final-heading,
+        .caatch-us-1,
+        .caatch-us-2,
+        .caatch-us-3 {
+            text-align: left;
+        }
+        /* ---> Container Spacing <------------------------ */
+        .container-med {
+            padding-bottom: 10px;
+        }
+        /* ---> Buttons <--------------------------- */
+        .btn {
+            width: 300px;
+        }
+        .btn-wide {
+            width: 300px;
+        }
         /* ---> Header <------------------------------- */
-        .hero-text {}
-        /* Modal Content/Box */
-        .modal-content {
-            background-color: #fefefe;
-            margin: 0 auto;
-            /* 15% from the top and centered */
-            padding: 10px;
-            border: 1px solid #888;
-            width: 95%;
+        #header-hero {
+            width: 100%;
+            height: 100%;
+            background-position: 80%;
+            background-attachment: scroll;
         }
-        .nav-link {
-            font-size: 32px !important;
+        .hero-text {
+            margin-top: 30%;
         }
-        .footer img {
-            max-width: 30%;
+        .hero-img {
+            width: 200px;
+            margin-bottom: 30px;
+        }
+        /* ---> caatch us <------------------------------- */
+        #caatch-us {
+            background-attachment: scroll;
+            background-position: 50%;
+            background-size: 150%;
+        }
+        /* ---> caatch this <------------------------------- */
+        .caatch-this-bg {
+            height: 370px;
+            background-size: 125%;
+            background-position: center bottom;
+        }
+        /* ---> caatch us <------------------------------- */
+        .who-are-we-1 {
+            height: 350px;
+            background-position: center;
+        }
+        /* ---> Newsletter <------------------------------- */
+        .news-1 {
+            margin-bottom: 20px;
+        }
+        .news-2 {
+            margin-top: 20px;
+        }
+        /* ---> Footer <------------------------------- */
+        .event-details {
+            padding-top: 30px;
+        }
+        .get-tickets {
+            padding-top: 30px;
         }
     }

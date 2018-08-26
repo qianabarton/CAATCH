@@ -1,319 +1,301 @@
-html,
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-    background-color: #eee;
-    font-family: 'SuisseBpIntlLight', Helvetica, sans-serif;
-}
-
-
-/* ---> Fonts & Font Sizing <---------------------- */
-
-h1 {
-    font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
-    color: #FFE189;
-    font-size: 110px;
-    line-height: 40px;
-    position: relative;
-    z-index: 50;
-}
-
-h2 {
-    font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
-    color: #fff;
-    font-size: 196px;
-    line-height: 176px;
-    opacity: 0.8;
-}
-
-h3 {
-    font-family: 'SuisseBpIntlThin', Helvetica, sans-serif;
-    color: #fff;
-    font-size: 35px;
-    line-height: 40px;
-}
-
-h3 .sub-heading {
-    font-family: 'SuisseBpIntlThin', Helvetica, sans-serif;
-    font-size: 46px;
-}
-
-h3 span {
-    font-size: 46px;
-}
-
-h4 {
-    font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
-    font-size: 114px;
-    color: #FFE189;
-    opacity: 0.8;
-    line-height: 90px;
-}
-
-h5 {
-    font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
-    font-size: 38px;
-    color: #FFE189;
-}
-
-h6 {
-    font-family: 'SuisseBpIntlLight', Helvetica, sans-serif;
-    font-size: 32px;
-    color: #fff;
-}
-
-p {
-    font-size: 32px;
-    line-height: 36px;
-    color: #fff;
-}
-
-
-/* ---> Container Spacing <------------------------ */
-
-.container {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.container-med {
-    padding-bottom: 60px;
-}
-
-.container-small {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-
-/* ---> Navbar <------------------------------ */
-
-.navbar-brand img {
-    width: 90px;
-}
-
-.navbar {
-    background-color: transparent;
-    transition: background 1s;
-}
-
-.solid {
-    background: #000;
-    opacity: 0.85;
-}
-
-.nav-link {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 400;
-    margin: 0 10px 0 10px;
-}
-
-
-/* ---> Buttons <--------------------------- */
-
-.btn {
-    text-transform: uppercase;
-    border-radius: 25;
-    width: 200px;
-    margin: auto auto;
-}
-
-.btn-fill {
-    background-color: #E3C059;
-    color: #fff;
-}
-
-.btn-ghost {
-    border-color: #e4af01;
-    color: #e4af01;
-    background-color: transparent;
-}
-
-.btn-white {
-    border-color: #fff;
-    color: #fff;
-}
-
-
-/* ---> Header <------------------------------- */
-
-#header-hero {
-    opacity: 1;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: url('../img/bgs/hero.png') center center;
-    background-size: cover;
-    left: 0;
-    top: 0;
-}
-
-.overlay {
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    opacity: 0;
-}
-
-.rocks {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 100%;
-    opacity: 0;
-}
-
-.rocks img {
-    position: relative;
-    width: 100%;
-    z-index: 50;
-}
-
-.hero-text {
-    opacity: 0;
-    position: fixed;
-    top: 80%;
-    margin-top: -380px;
-    left: 30%;
-    margin-left: -300px;
-}
-
-.hero-img {
-    width: 550px;
-}
-
-.yellow {
-    color: #FFE189;
-}
-
-
-/* ---> caatch this <------------------------------- */
-
-#caatch-this {
-    background-color: #323232;
-    position: relative;
-    z-index: 0;
-}
-
-.caatch-this-bg {
-    width: 100%;
-    height: 750px;
-    background: url('../img/bgs/caatchthis.png');
-    background-size: cover;
-}
-
-
-/* ---> caatch up<------------------------------- */
-
-#caatch-us {
-    position: relative;
-    background: url('../img/bgs/caatchus.png') no-repeat fixed right bottom;
-    background-color: #000;
-}
-
-
-/* ---> caatch us <------------------------------- */
-
-#who-are-we-1 {
-    background-color: #191911;
-    position: relative;
-    background: url('../img/bgs/whoarewe.png');
-    background-size: cover;
-    height: 600px;
-}
-
-#who-are-we-2 {
-    position: relative;
-    background-color: #191911;
-}
-
-#newsletter {
-    position: relative;
-    background-color: #FFE189;
-}
-
-#lets-caatch-up {
-    background-color: #323232;
-    position: relative;
-}
-
-.final-heading {
-    font-family: 'SuisseBpIntlMedium', Helvetica, sans-serif;
-}
-
-.final-heading,
-.details-2 {
-    color: #fff;
-    opacity: 0.6;
-}
-
-.event-details {
-    padding-top: 200px;
-}
-
-.details-1 {
-    color: #fff;
-}
-
-
-/* ---> Intro <------------------------------- */
-
-.intro {
-    background: #212529;
-    position: relative;
-    height: 100%;
-}
-
-.intro-text {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 50%;
-    height: 5%;
-    margin: auto;
-    color: #fff;
-}
-
-.intro-sub {
-    color: #FFE189;
-}
-
-.first-circle {
-    background: rgb(209, 182, 101);
-    width: 100%;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-}
-
-.bg-animation {
-    clip-path: ellipse(0% 0% at 50% 100%);
-    animation: bg-animation .7s ease-in 1;
-}
-
-@keyframes bg-animation {
-    100% {
-        clip-path: ellipse(120% 105% at 50% 100%);
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+        background-color: #eee;
+        font-family: 'SuisseBpIntlLight', Helvetica, sans-serif;
     }
-}
-
-.red {
-    background-color: #F73656;
-    position: relative;
-}
-
-.blue {
-    background-color: #47A3D1;
-    position: relative;
-}
-
-.green {
-    background-color: #3ECC98;
-    position: relative;
-}
+    /* ---> Fonts & Font Sizing <---------------------- */
+    
+    h1 {
+        font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+        color: #ffd966;
+        font-size: 110px;
+        line-height: 40px;
+        position: relative;
+        z-index: 50;
+    }
+    
+    h2 {
+        font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+        color: #fff;
+        font-size: 196px;
+        line-height: 176px;
+        opacity: 0.9;
+    }
+    
+    h3 {
+        font-family: 'SuisseBpIntlThin', Helvetica, sans-serif;
+        color: #fff;
+        font-size: 42px;
+        line-height: 44px;
+    }
+    
+    h3 .sub-heading {
+        font-family: 'SuisseBpIntlThin', Helvetica, sans-serif;
+        font-size: 46px;
+    }
+    
+    h4 {
+        font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+        font-size: 114px;
+        color: #ffd966;
+        opacity: 1;
+        line-height: 90px;
+    }
+    
+    h5 {
+        font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+        font-size: 38px;
+        color: #FFE189;
+    }
+    
+    h6 {
+        font-family: 'SuisseBpIntlLight', Helvetica, sans-serif;
+        font-size: 24px;
+        color: #fff;
+    }
+    
+    p {
+        font-size: 28px;
+        line-height: 34px;
+        color: #fff;
+    }
+    
+    .bold {
+        font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+    }
+    /* ---> Container Spacing <------------------------ */
+    
+    .container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .container-med {
+        padding-bottom: 60px;
+    }
+    
+    .container-small {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    /* ---> Buttons <--------------------------- */
+    
+    .btn {
+        text-transform: uppercase;
+        border-radius: 25;
+        width: 300px;
+        margin: auto auto;
+        font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+        font-size: 20px;
+    }
+    
+    .btn-fill {
+        background-color: #E3C059;
+        color: #fff;
+    }
+    
+    .btn-wide {
+        width: 350px;
+    }
+    /* ---> Header <------------------------------- */
+    
+    #header-hero {
+        opacity: 1;
+        width: 100%;
+        height: 100%;
+        background: url('../img/bgs/hero.png') fixed no-repeat center center;
+        background-size: cover;
+    }
+    
+    .overlay {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        opacity: 0;
+    }
+    
+    .hero-text {
+        opacity: 0;
+        margin-top: 5%;
+    }
+    
+    .hero-img {
+        width: 250px;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* ---> caatch this <------------------------------- */
+    
+    #section-1-content {
+        opacity: 0;
+    }
+    
+    #caatch-this {
+        background-color: #323232;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .caatch-this-bg {
+        width: 100%;
+        height: 750px;
+        background: url('../img/bgs/caatchthis.png') no-repeat;
+        background-size: cover;
+    }
+    /* ---> caatch up<------------------------------- */
+    
+    #section-2-content {
+        opacity: 0;
+    }
+    
+    #caatch-us {
+        position: relative;
+        background: url('../img/bgs/caatchus.png') no-repeat fixed right bottom;
+        background-color: #000;
+    }
+    /* ---> caatch us <------------------------------- */
+    
+    #section-3-content {
+        opacity: 0;
+    }
+    
+    #section-4-content {
+        opacity: 0;
+    }
+    
+    .who-are-we-1 {
+        background-color: #191911;
+        position: relative;
+        background: url('../img/bgs/whoarewe.png');
+        background-size: cover;
+        height: 750px;
+    }
+    
+    .who-are-we-2 {
+        position: relative;
+        background-color: #191911;
+    }
+    /* ---> Newsletter <------------------------------- */
+    
+    #newsletter {
+        position: relative;
+        background-color: #ffd966;
+    }
+    
+    .newsletter-heading {
+        color: #4d4c4d;
+        font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+        font-size: 22px;
+    }
+    
+    .newsletter-sub {
+        color: #5a585a;
+        font-family: 'SuisseBpIntlRegular', Helvetica, sans-serif;
+        font-size: 17px;
+    }
+    
+    input[type="email"] {
+        float: left;
+        height: 50px;
+        width: 70%;
+        border: 0;
+        outline: none;
+        font-size: 1.5em;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: grey;
+    }
+    
+    input[type="submit"] {
+        float: right;
+        width: 30%;
+        height: 50px;
+        background: #323132;
+        border: 2px solid #323132;
+        padding: 0;
+        font-size: 1.5em;
+        color: #fff;
+        cursor: pointer;
+        outline: none;
+        transition: transform 0.75s ease, background 0.35s ease;
+    }
+    /* ---> Footer <------------------------------- */
+    
+    #section-5-content {
+        opacity: 1;
+    }
+    
+    #lets-caatch-up {
+        background-color: #323232;
+        position: relative;
+    }
+    
+    .final-heading {
+        font-family: 'SuisseBpIntlMedium', Helvetica, sans-serif;
+    }
+    
+    .final-heading,
+    .details-2 {
+        color: #fff;
+        opacity: 0.6;
+    }
+    
+    .event-details {
+        padding-top: 200px;
+    }
+    
+    .get-tickets {
+        padding-top: 250px;
+    }
+    
+    .details-1 {
+        color: #fff;
+    }
+    /* ---> Intro <------------------------------- */
+    
+    .intro {
+        background: #212529;
+        position: relative;
+        height: 100%;
+    }
+    
+    .intro-text {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 80%;
+        height: 5%;
+        margin: auto;
+        color: #fff;
+    }
+    
+    .intro-sub {
+        color: #FFE189;
+    }
+    
+    .first-circle {
+        background: #ffd966;
+        width: 100%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+    
+    .bg-animation {
+        clip-path: ellipse(0% 0% at 50% 100%);
+        animation: bg-animation .7s ease-in 1;
+    }
+    
+    @keyframes bg-animation {
+        100% {
+            clip-path: ellipse(120% 105% at 50% 100%);
+        }
+    }
