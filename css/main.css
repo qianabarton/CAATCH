@@ -19,7 +19,7 @@
     h2 {
         font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
         color: #fff;
-        font-size: 196px;
+        font-size: 176px;
         line-height: 176px;
         opacity: 0.9;
     }
@@ -44,10 +44,6 @@
         line-height: 90px;
     }
     
-    .gray {
-        color: #ffd966;
-    }
-    
     h5 {
         font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
         font-size: 38px;
@@ -68,6 +64,10 @@
     
     .bold {
         font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
+    }
+    
+    .gray {
+        color: #616161;
     }
     /* ---> Container Spacing <------------------------ */
     
@@ -129,7 +129,7 @@
     .hero-img {
         width: 300px;
         margin-bottom: 50px;
-        margin-left: 50px;
+        margin-left: 0px;
     }
     
     .ink {
@@ -142,7 +142,7 @@
     }
     
     #caatch-this {
-        background-color: #d2cecd;
+        background-color: #cbcec5;
         position: relative;
         z-index: 0;
     }
@@ -150,7 +150,7 @@
     .caatch-this-bg {
         width: 100%;
         height: 750px;
-        background: url('../img/bgs/bg-2-fade-2.png') no-repeat;
+        background: url('../img/family.png') no-repeat;
         background-size: cover;
     }
     /* ---> caatch up<------------------------------- */
