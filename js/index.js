@@ -23,9 +23,20 @@ qb.App = (function() {
     function intro() {
         $('.intro').animate({
                 opacity: 1
-            }, 1000,
+            }, 2000,
             (function() {
-                firstCircle();
+
+                if ($(window).width() <= 768) {
+                    $('.intro').addClass('d-none');
+                    $('#header-hero').removeClass('d-none');
+                    $('.hero-text').animate({
+                        opacity: 1
+                    }, 1500)
+                    showAllSections();
+
+                } else {
+                    firstCircle();
+                }
             })
         );
     }
@@ -47,6 +58,7 @@ qb.App = (function() {
     }
 
     function heroCircle() {
+
         $('#header-hero').addClass('bg-animation');
         $('#header-hero').removeClass('d-none');
         hero();
