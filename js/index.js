@@ -21,9 +21,19 @@ qb.App = (function() {
     }
 
     function intro() {
+        var length = 0;
+
+
+        if ($(window).width() <= 768) {
+            length = 3000;
+
+        } else {
+            length = 1500;
+        }
+
         $('.intro').animate({
                 opacity: 1
-            }, 2000,
+            }, length,
             (function() {
 
                 if ($(window).width() <= 768) {
