@@ -9,8 +9,8 @@
     
     h1 {
         font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
-        color: #ffd966;
-        font-size: 110px;
+        color: #fff;
+        font-size: 83px;
         line-height: 40px;
         position: relative;
         z-index: 50;
@@ -19,16 +19,15 @@
     h2 {
         font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
         color: #fff;
-        font-size: 176px;
-        line-height: 176px;
-        opacity: 0.9;
+        font-size: 136px;
+        line-height: 116px;
     }
     
     h3 {
         font-family: 'SuisseBpIntlThin', Helvetica, sans-serif;
         color: #fff;
-        font-size: 42px;
-        line-height: 44px;
+        font-size: 36px;
+        line-height: 40px;
     }
     
     h3 .sub-heading {
@@ -39,7 +38,7 @@
     h4 {
         font-family: 'SuisseBpIntlBold', Helvetica, sans-serif;
         font-size: 114px;
-        color: #ffd966;
+        color: #e2dad0;
         opacity: 1;
         line-height: 90px;
     }
@@ -80,6 +79,10 @@
         padding-bottom: 60px;
     }
     
+    .no-bottom {
+        padding-bottom: 0;
+    }
+    
     .container-small {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -96,7 +99,7 @@
     }
     
     .btn-fill {
-        background-color: #ffd966;
+        background-color: #c5b4a0;
         color: #fff;
     }
     
@@ -109,7 +112,7 @@
         opacity: 1;
         width: 100%;
         height: 100%;
-        background: url('../img/bgs/hero.png') fixed no-repeat center center;
+        background: url('../img/bgs/hero-1.jpg') fixed no-repeat center center;
         background-size: cover;
     }
     
@@ -153,7 +156,24 @@
         background: url('../img/family.png') no-repeat;
         background-size: cover;
     }
-    /* ---> caatch up<------------------------------- */
+    
+    #more-info-content {
+        opacity: 0;
+    }
+    
+    #more-info {
+        background-color: #fcfefd;
+        position: relative;
+        z-index: 0;
+    }
+    
+    .more-info-bg {
+        width: 100%;
+        height: 550px;
+        background: url('../img/bgs/family-2.png') no-repeat;
+        background-size: cover;
+    }
+    /* ---> caatch us<------------------------------- */
     
     #section-2-content {
         opacity: 0;
@@ -163,6 +183,14 @@
         position: relative;
         background: url('../img/bgs/caatchus.png') no-repeat fixed right bottom;
         background-color: #000;
+    }
+    
+    .caatch-us-1 {
+        color: #cec1b1;
+    }
+    
+    .caatch-us-2 {
+        color: #cec1b1;
     }
     /* ---> caatch us <------------------------------- */
     
@@ -190,7 +218,7 @@
     
     #newsletter {
         position: relative;
-        background-color: #ffd966;
+        background-color: #e2dad0;
     }
     
     .newsletter-heading {
@@ -283,11 +311,11 @@
     }
     
     .intro-sub {
-        color: #FFE189;
+        color: #cec1b1;
     }
     
     .first-circle {
-        background: #ffd966;
+        background: #c5b4a0;
         width: 100%;
         position: absolute;
         width: 100%;

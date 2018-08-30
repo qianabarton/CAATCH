@@ -78,8 +78,8 @@ qb.App = (function() {
 
     function showAllSections() {
         $('#caatch-this').removeClass('d-none');
-        $('#caatch-up').removeClass('d-none');
         $('#caatch-us').removeClass('d-none');
+        $('#more-info').removeClass('d-none');
         $('#who-are-we').removeClass('d-none');
         $('#newsletter').removeClass('d-none');
         $('#lets-caatch-up').removeClass('d-none');
@@ -93,6 +93,10 @@ qb.App = (function() {
                 $('#section-2-content').addClass('animated fadeInUp');
             }
 
+            if (checkVisible($('#more-info')[0])) {
+                $('#more-info-content').addClass('animated fadeInUp');
+            }
+
             if (checkVisible($('#who-are-we')[0])) {
                 $('#section-3-content').addClass('animated fadeInUp');
             }
@@ -100,6 +104,8 @@ qb.App = (function() {
             if (checkVisible($('#section-4-content')[0])) {
                 $('#section-4-content').addClass('animated fadeInUp');
             }
+
+
 
 
             if (checkVisible($('#lets-caatch-up')[0])) {
